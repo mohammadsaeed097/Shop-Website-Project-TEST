@@ -198,10 +198,6 @@ header nav .nav-left .register-login-btn a {
     padding-top: 8px;
 }
 
-/* .home-page-product-section .shoping-card .buttons .left .extend-btn:hover .b-icon {
-    color: #e74c3c;
-} */
-
 .home-page-product-section .shoping-card .buttons .left .extend-btn a {
 
 }
@@ -210,3 +206,99 @@ header nav .nav-left .register-login-btn a {
 
 }
 
+/* super offer section */
+
+.super-offer-section {
+    padding: 20px;
+    font-size: 1em;
+}
+
+.super-offer-section .super-offer-box {
+    text-align: center;
+    box-shadow: 0px 2px 8px 0px rgba( 0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 0 10px;
+
+}
+
+.super-offer-box .super-offer-box-title {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 8px 30px;
+    display: inline-block;
+    border-radius: 0 0 8px 8px;
+}
+
+.super-offer-box .body {
+
+}
+
+.super-offer-box .body .image-container {
+    text-align: center;
+    padding: 30px;
+}
+
+.super-offer-box .body .image-container img {
+    width: 100%;
+}
+
+.super-offer-box .body .spesification {
+    padding: 30px 50px;
+}
+
+.super-offer-box .body .spesification .price-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.super-offer-box .body .spesification .price-row .price {
+    margin-left: 60px;
+    color: #444;
+    font-size: 1.2em;
+
+}
+
+.super-offer-box .body .spesification .price-row .off {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 25px;
+
+}
+
+.super-offer-box .body .spesification .title {
+    margin: 40px 0;
+    font-weight: bold;
+    color: #444;
+    font-size: 1.4em;
+
+}
+
+.super-offer-box .body .spesification .counter-down {
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+    margin: 10px 40px;
+    padding-top: 20px;
+    font-weight: bold;
+    color: #666;
+    font-size: 1.5em;
+}
+
+
+.super-offer-box .body .spesification .remaining-time {
+    color: #777;
+    font-size: 0.8em;
+
+}
+
+
+.banner {
+    text-align: center;
+    padding: 0 5px;
+}
+
+.banner img {
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px 0px rgba( 0, 0, 0, 0.2);
+    width: 80%;
+}
