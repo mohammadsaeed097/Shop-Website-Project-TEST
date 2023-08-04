@@ -103,7 +103,7 @@ header nav .nav-left .register-login-btn a {
     font-size: 1em;
 }
 
-.home-page-product-section .shoping-card {
+.shoping-card {
     text-align: center;
     box-shadow: 0px 2px 8px 0px rgba( 0, 0, 0, 0.2);
     margin: 10px 15px;
@@ -112,15 +112,15 @@ header nav .nav-left .register-login-btn a {
     /* border: 1px solid #bdc3c7 ; */
 }
 
-.home-page-product-section .shoping-card .img-sec {
+ .shoping-card .img-sec {
     position: relative;
 }
 
-.home-page-product-section .shoping-card .img-sec img {
+ .shoping-card .img-sec img {
     width: 60%;
 }
 
-.home-page-product-section .shoping-card .img-sec .hot-offer{
+ .shoping-card .img-sec .hot-offer{
     background-color: #e74c3c;
     color: #fff;
     padding: 3px 5px;
@@ -131,40 +131,40 @@ header nav .nav-left .register-login-btn a {
     font-size: 0.9em;
 }
 
-.home-page-product-section .shoping-card .img-sec .stars {
+ .shoping-card .img-sec .stars {
     position: absolute;
     left: 10px;
     top: 10px;
     color: #f1c40f;
 }
 
-.home-page-product-section .shoping-card .title {
+ .shoping-card .title {
     color: #333;
     margin: 15px;
 }
 
-.home-page-product-section .shoping-card .buttons {
+ .shoping-card .buttons {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 5px 15px;
 }
 
-.home-page-product-section .shoping-card .buttons .right {
+ .shoping-card .buttons .right {
 
 }
 
-.home-page-product-section .shoping-card .buttons .right .price{
+ .shoping-card .buttons .right .price{
     color: #555;
     font-weight: bold;
 }
 
-.home-page-product-section .shoping-card .buttons .left {
+ .shoping-card .buttons .left {
     display: flex;
 
 }
 
-.home-page-product-section .shoping-card .buttons .left .extend-btn {
+ .shoping-card .buttons .left .extend-btn {
     display: flex;
     margin-left: 5px;
     align-items: center;
@@ -178,31 +178,31 @@ header nav .nav-left .register-login-btn a {
     transition: 0.75s;
 }
 
-.home-page-product-section .shoping-card .buttons .left .extend-btn:hover {
+ .shoping-card .buttons .left .extend-btn:hover {
     width: 100px;
 }
 
-.home-page-product-section .shoping-card .buttons .left .extend-btn .b-text {
+ .shoping-card .buttons .left .extend-btn .b-text {
     display: none;
     color: #fff;
     font-weight: bold;
     padding-top: 3px;
 }
 
-.home-page-product-section .shoping-card .buttons .left .extend-btn:hover .b-text {
+ .shoping-card .buttons .left .extend-btn:hover .b-text {
     display: block;
 }
 
-.home-page-product-section .shoping-card .buttons .left .extend-btn .b-icon {
+ .shoping-card .buttons .left .extend-btn .b-icon {
     color: #fff;
     padding-top: 8px;
 }
 
-.home-page-product-section .shoping-card .buttons .left .extend-btn a {
+ .shoping-card .buttons .left .extend-btn a {
 
 }
 
-.home-page-product-section .shoping-card .buttons .left .extend-btn a i{
+ .shoping-card .buttons .left .extend-btn a i{
 
 }
 
@@ -301,4 +301,26 @@ header nav .nav-left .register-login-btn a {
     border-radius: 5px;
     box-shadow: 0px 2px 8px 0px rgba( 0, 0, 0, 0.2);
     width: 80%;
+}
+
+/* dragble-list-section */
+
+.dragble-list img {
+    width: 70% !important;
+    margin: auto;
+}
+
+.dragble-list .title {
+    padding: 0px 20px 20px 20px;
+    
+}
+
+.dragble-list .title span {
+    font-size: 1.2em;
+    color: #444;
+    border-bottom: 1px solid #e74c3c;
+}
+
+.owl-stage-outer {
+    direction: ltr;
 }
