@@ -1,6 +1,4 @@
 .login-container {
-    background: radial-gradient( circle farthest-corner at 10% 20%, rgba(90,92,106,1), rgba(32,45,58,1) 81.3%);
-    background-size: cover;
     height: 100%;
     padding: 30px;
 }
@@ -8,6 +6,10 @@
 .row {
     justify-content: center;
     align-items: center;
+}
+
+body {
+    background-image: linear-gradient( to right, rgba(90,92,106,1), rgba(32,45,58,1) 81.3%);
 }
 
 .login-box {
@@ -49,6 +51,20 @@
     outline: none;
     
 }
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(255, 255, 255, 0.5);
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgba(255, 255, 255, 0.5);
+  }
+
 
 .login-box form .submit-btn-container {
     text-align: center;
