@@ -7,6 +7,8 @@ header nav {
     justify-content: space-between;
     padding: 10px 15px;
     font-size: 1em;
+    box-shadow: 0px 2px 8px 0px rgba(32,45,58,0.5);
+
 }
 
 header nav .nav-right {
@@ -15,7 +17,7 @@ header nav .nav-right {
 }
 
 header nav .nav-right a {
-    color: #444;
+    color: rgba(32,45,58,1);
     padding: 5px 10px;
     margin: 0px 5px;
     font-size: 1.1em;
@@ -36,12 +38,12 @@ header nav .nav-left .register-login-btn {
 
 header nav .nav-left .register-login-btn i {
     margin: 7px;
-    color: #444;
+    color: rgba(35,45,65,1);
     font-size: 1.1em;
 }
 
 header nav .nav-left .register-login-btn a {
-    color: #444;
+    color: rgba(35,45,65,1);
     margin: 0px 10px;
     font-size: 0.9em;
 }
@@ -105,7 +107,7 @@ header nav .nav-left .register-login-btn a {
 
 .shoping-card {
     text-align: center;
-    box-shadow: 0px 2px 8px 0px rgba( 0, 0, 0, 0.2);
+    box-shadow: 0px 2px 8px 0px rgba(32,45,58,0.5);
     margin: 10px 15px;
     border-radius: 5px;
     padding: 10px;
@@ -121,7 +123,7 @@ header nav .nav-left .register-login-btn a {
 }
 
  .shoping-card .img-sec .hot-offer{
-    background-color: #e74c3c;
+    background-color: #e67e22;
     color: #fff;
     padding: 3px 5px;
     border-radius: 5px;
@@ -141,6 +143,7 @@ header nav .nav-left .register-login-btn a {
  .shoping-card .title {
     color: #333;
     margin: 15px;
+    height: 50px;
 }
 
  .shoping-card .buttons {
@@ -169,7 +172,8 @@ header nav .nav-left .register-login-btn a {
     margin-left: 5px;
     align-items: center;
     justify-content: space-between;
-    background-color: #2ecc71;
+    background-color: rgba(35,45,65,1);
+
     color: #fff;
     width: 40px;
     padding: 8px 12px;
@@ -215,14 +219,14 @@ header nav .nav-left .register-login-btn a {
 
 .super-offer-section .super-offer-box {
     text-align: center;
-    box-shadow: 0px 2px 8px 0px rgba( 0, 0, 0, 0.2);
+    box-shadow: 0px 2px 8px 0px rgba(32,45,58,0.5);
     border-radius: 5px;
-    margin: 0 10px;
-
+    margin: 0px 10px;
+    height: 100%;
 }
 
 .super-offer-box .super-offer-box-title {
-    background-color: #e74c3c;
+    background-color: #e67e22;
     color: #fff;
     padding: 8px 30px;
     display: inline-block;
@@ -260,7 +264,7 @@ header nav .nav-left .register-login-btn a {
 }
 
 .super-offer-box .body .spesification .price-row .off {
-    background-color: #e74c3c;
+    background-color: #e67e22;
     color: #fff;
     padding: 5px 20px;
     border-radius: 25px;
@@ -291,19 +295,54 @@ header nav .nav-left .register-login-btn a {
 
 }
 
-
 .banner {
     text-align: center;
     padding: 0 5px;
+    height: 100%;
 }
 
 .banner img {
     border-radius: 5px;
-    box-shadow: 0px 2px 8px 0px rgba( 0, 0, 0, 0.2);
-    width: 80%;
+    box-shadow: 0px 2px 8px 0px rgba(32,45,58,0.5);
+    height: 100%;
+}
+
+@media only screen and (max-width: 991px){
+    .banner{
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .banner{
+        margin: 20px 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .banner img{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .slider .slides .item span {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    header nav .nav-left .register-login-btn {
+        display: none;
+    }
 }
 
 /* dragble-list-section */
+
+.dragble-list {
+    margin: 1rem 0;
+}
 
 .dragble-list img {
     width: 70% !important;
@@ -328,7 +367,7 @@ header nav .nav-left .register-login-btn a {
 /* footer */
 
 footer {
-    background-color: #636e72;
+    background-image: linear-gradient( to right, rgba(90,92,106,1), rgba(32,45,58,1) 81.3%);
     font-size: 1em;
 }
 
@@ -346,10 +385,12 @@ footer .right .desc{
     color: rgba(255, 255, 255, 0.7);
     line-height: 1.8em;
     font-size: 0.9em;
+    text-align: justify;
 }
 
 footer .left {
     padding: 40px;
+    text-align: center;
 }
 
 footer .left .title {
@@ -359,19 +400,20 @@ footer .left .title {
 }
 
 footer .left .socials {
-    display: flex;
-    justify-content: space-around;
+    text-align: center;
     margin-top: 20px;
 }
 
 footer .left .socials a {
     color: #fff;
     font-size: 1.4em;
+    margin: 0 10px;
 }
 
 footer .bottom {
-    background-color: #2d3436;
+    /* background-color: rgba(32,45,58,1); */
+    box-shadow: 0px 2px 8px 0px rgba( 0, 0, 0, 0.5);
     text-align: center;
     padding: 15px;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.5);
 }

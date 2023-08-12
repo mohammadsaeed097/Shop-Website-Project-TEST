@@ -22,6 +22,27 @@ body {
     height: auto;
 }
 
+.sign-up-box .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+    margin-bottom: 25px;
+    padding-bottom: 0px;
+}
+
+.sign-up-box .nav .title {
+    font-size: 1.5em;
+}
+
+.sign-up-box .nav a {
+    color: #fff;
+}
+
+.sign-up-box .nav a i {
+    font-size: 1.5em;
+}
+
 .sign-up-box form .input-group {
     margin: 30px 0px;
 }
