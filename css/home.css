@@ -23,10 +23,6 @@ header nav .nav-right a {
     font-size: 1.1em;
 }
 
-header nav .nav-left {
-
-}
-
 header nav .nav-left .register-login-btn {
     border: 1px solid #666;
     padding: 5px 8px;
@@ -233,9 +229,6 @@ header nav .nav-left .register-login-btn a {
     border-radius: 0 0 8px 8px;
 }
 
-.super-offer-box .body {
-
-}
 
 .super-offer-box .body .image-container {
     text-align: center;
@@ -411,7 +404,6 @@ footer .left .socials a {
 }
 
 footer .bottom {
-    /* background-color: rgba(32,45,58,1); */
     box-shadow: 0px 2px 8px 0px rgba( 0, 0, 0, 0.5);
     text-align: center;
     padding: 15px;

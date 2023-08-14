@@ -32,4 +32,4 @@ setInterval(()=>{
         slideIndex=1;
     }
     setSlide(`slide${slideIndex}` , slideIndex)
-} , 4000)
+} , 5000)
