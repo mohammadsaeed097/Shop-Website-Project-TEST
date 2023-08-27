@@ -83,9 +83,15 @@ body {
   }
 
 
+.sign-up-box form .conditions {
+    display: flex;
+    align-items: center;
+}
+
 .sign-up-box form .conditions input {
     accent-color: #f1c40f;
     outline: none;
+    margin: 0 0 7px 5px;
 }
 
 .sign-up-box form .conditions a {
